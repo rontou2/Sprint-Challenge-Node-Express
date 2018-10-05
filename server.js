@@ -2,10 +2,12 @@ const actions = require('./data/helpers/actionModel.js');
 const projects = require('./data/helpers/projectModel.js');
 const express = require ('express');
 const helmet = require('helmet');
+const cors = require('cors');
 
 const server = express();
 server.use(express.json());
 server.use(helmet());
+server.use(cors());
 
 const sendRes = (res,num,data) => {
 res.status(num).json(data);
