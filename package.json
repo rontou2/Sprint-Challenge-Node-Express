@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "knex": "^0.15.2",
+    "sqlite3": "^4.0.2"
+  },
+  "name": "Sprint-Challenge-Node-Express",
+  "description": "- Please open the `Review.md` file and answer the questions.\r - Use Node.js and Express to design and build an API that performs CRUD operations on **projects** and **actions**.",
+  "version": "1.0.0",
+  "main": "knexfile.js",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rontou2/Sprint-Challenge-Node-Express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rontou2/Sprint-Challenge-Node-Express/issues"
+  },
+  "homepage": "https://github.com/rontou2/Sprint-Challenge-Node-Express#readme"
+}
